@@ -4,7 +4,8 @@ require('dotenv').config();
 
 // 获取配置
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const VERCEL_URL = process.env.VERCEL_URL || '';
+// const VERCEL_URL = process.env.VERCEL_URL || '';
+const VERCEL_URL = 'https://rt-message-bot-tau.vercel.app';
 
 module.exports = async (req, res) => {
   try {
