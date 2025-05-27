@@ -1,0 +1,25 @@
+{
+  "name": "rtmessage-bot",
+  "version": "1.0.0",
+  "description": "Telegram 消息转发机器人",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "vercel": "^33.2.0"
+  }
+} 
